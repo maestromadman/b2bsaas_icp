@@ -40,7 +40,7 @@ models:
     staging:
       +materialized: view
       +schema: STAGING
-    # Applies to all files under models/example/
+    
     final:
       +materialized: table
       +schema: FINAL
